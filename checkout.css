@@ -1,0 +1,130 @@
+body{
+    overflow-x: hidden;
+}
+.nav>.name{
+    margin: 2vh 6vw;
+    margin-right: 90vw;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(135, 13, 83);
+    margin-top: 0%;
+}
+.gridbox{
+    display: grid;
+    grid-template-columns: 45vw 20vw;
+    grid-column-gap: 2vw;
+    margin-left: 15vw;
+}
+.border{
+    border: 1px solid rgb(146, 144, 144);
+    border-radius: 10px;
+    /* padding: 1vh; */
+}
+.prodet{
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5vh;
+}
+.flexbox1{
+    display: grid;
+    grid-template-columns: 7vw 33vw 5vw;
+    padding: 1vh;
+}
+.flexbox2{
+    display: flex;
+    padding: 1vh;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(67, 65, 65);
+}
+.img>img{
+    height: 15vh;
+    width: 6.5vw;
+    margin: 0%;
+    margin-top: 1.8vh;
+    cursor: pointer;
+}
+.contents{
+    margin-left: 1vh;
+}
+.contents>p{
+    margin-top: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+.contents>span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(67, 65, 65);
+}
+.contents>button{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(83, 82, 82);
+    cursor: pointer;
+}
+.editbtn{
+    color: rgb(111, 15, 81);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.flexbox2>p{
+    margin: 0%;
+    margin-left: 1vh;
+}
+.flexbox2>span{
+    margin-left: 42vh;
+}
+.gridbox2{
+    margin-top: 3vh;
+}
+.price{
+    display: grid;
+    grid-template-columns: 15vw 5vw;
+    margin-top: 3vh;
+}
+.price>p{
+    margin: 0%;
+    padding: 0%;
+    font-size: 1.2rem;
+}
+.price1{
+    display: grid;
+    grid-template-columns: 15.9vw 4vw;
+    margin-bottom: 5vh;
+}
+.price1>p{
+    margin: 0%;
+    font-size: 1.2rem;
+}
+.last>p{
+    display: flex;
+    width: 20vw;
+    height: 4vh;
+    background-color: rgb(240, 235, 235);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5vh;
+}
+.last>button{
+    width: 20vw;
+    height: 6vh;
+    font-family: cursive;
+    font-size: 1.1rem;
+    margin: 0%;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color:rgb(160,36,140);
+    cursor: pointer;
+}
+.last>img{
+    width: 20vw;
+}
