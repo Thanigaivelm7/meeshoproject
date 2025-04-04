@@ -7,11 +7,11 @@ cart.forEach((cartitem) => {
     const productId =cartitem.productId;
     let matchingprod;
 
-    products.forEach((product)=>{
-        if(product.Id === productId){
-            matchingprod = product;
-        }
-    });
+products.forEach((product)=>{
+    if(product.id===productId){
+        matchingprod = product;
+    }
+});
 
 cartsummary+=`
     <div class="border ${matchingprod.Id}">
@@ -36,7 +36,7 @@ cartsummary+=`
     </div>
 `
 });
-document.querySelector('.border').innerHTML=cartsummary;
+document.querySelectorAll('.border').innerHTML=cartsummary;
 
 document.querySelectorAll('.remove-btn').forEach((link) => {
     link.addEventListener('click', () => {

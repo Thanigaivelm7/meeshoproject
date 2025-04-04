@@ -287,12 +287,21 @@ export const products =[{
     },
     price:'₹ 399'
 },{
-    Id:'f57c-v57vsa',
-    name:"pack of 5 child tshirt combo...",
-    Image:"images/products/pack 5 child tshirt.webp",
+    Id:'zmnsjnnz5522-s5z2z',
+    name:"namyaa hair removal men&wom...",
+    Image:"images/products/namyaa hair removal.webp",
     rating:{
-        stars:'images/star2.jpg',
-        count:'545'
+        stars:'images/star4.jpg',
+        count:'540'
+    },
+    price:'₹ 399'
+},{
+    Id:'f57c-v57vsa',
+    name:"Exclusive Womens Flats Tpr Material...",
+    Image:"images/newarr/Exclusive Womens Flats Tpr Material.webp",
+    rating:{
+        stars:'images/star5.jpg',
+        count:'79'
     },
     price:'₹ 299'
 },{
