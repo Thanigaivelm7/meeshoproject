@@ -1,22 +1,16 @@
 export let cart =JSON.parse(localStorage.getItem('cart'));
 if(!cart){
-    cart =[{
-        productId:'ks-gitw5465',
-        quantity:1,
-    },{
-        productId:'x8f0g545-s505v48z',
-        quantity:1,
-    }];
+    cart =[];
 }
 
 function savetostorage(){
-    localStorage.setItem('cart',JSON.stringify(cart))
+    localStorage.setItem('cart',JSON.stringify(cart));
 }
 export function addtocart(productId){
     let matching;
-       cart.forEach((cartitem)=>{
-        if(productId===cartitem.productId){
-            matching= cartitem;}
+       cart.forEach((cartItem)=>{
+        if(productId===cartItem.productId){
+            matching= cartItem;}
        });
         if(matching){
             matching.quantity +=1;
@@ -33,16 +27,16 @@ export function addtocart(productId){
 export function updatecart(productId){
     let cartquantity = 0;
 
-    cart.forEach((cartitem)=>{
-        cartquantity += cartitem.quantity;
+    cart.forEach((cartItem)=>{
+        cartquantity += cartItem.quantity;
     });
     document.querySelector(".cart-quantity").innerHTML = cartquantity;
 }
 export function removecart(productId){
     const newcart =[]
-    cart.forEach((cartitem) =>{
-        if(cartitem.productId !== productId){
-            newcart.push(cartitem);
+    cart.forEach((cartItem) =>{
+        if(cartItem.productId !== productId){
+            newcart.push(cartItem);
         }
     });
     cart=newcart;

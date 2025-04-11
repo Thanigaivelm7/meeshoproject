@@ -203,6 +203,9 @@ a{
     border-radius: 10px;
     margin: 5vh 4.4vw;
 }
+.btn2:hover{
+    box-shadow: 3px 3px 3px rgb(135, 13, 83);
+}
 .ess-one{
     margin-top: 25vh;
     margin-left: 2vw;
@@ -226,6 +229,9 @@ a{
     margin-left: 4.5vw;
     cursor: pointer;
 }
+.btn3:hover{
+    box-shadow: 3px 3px 3px rgb(8,156,228);
+}
 .main{
     display: flex;
 }
@@ -243,7 +249,6 @@ a{
     text-align: left;
     width: 90%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 .main>.products>p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

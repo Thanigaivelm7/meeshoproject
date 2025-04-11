@@ -835,7 +835,7 @@ export const products =[{
         count:'986'
     },
     price:'₹ 399'
-},,{
+},{
     Id:'x8f000s0s0a05-s500d00d0',
     name:"Pink classic traditional dhupata sets...",
     Image:"images/newarr/pink classic dhupata sets.webp",
